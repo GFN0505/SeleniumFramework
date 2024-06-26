@@ -44,7 +44,7 @@ public class BaseTests {
 		String password = prop.getProperty("password");
 		
 		String browserName = System.getProperty("browser")!=null ? System.getProperty("browser") :prop.getProperty("browser");
-		
+		//WE testing
 		
 		if(browserName.contains("chrome"))
 		{
